@@ -1,0 +1,48 @@
+.contatti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: tomato;
+}
+
+.contatti p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+
+}
+
+.contatti p a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+lement.style {
+    width: 360px;
+}
+<style>
+.llcnCH {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 12px 24px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: opacity 0.3s ease 0s, margin 0.3s ease 0s, visibility 0.3s ease 0s;
+    background-color: rgb(255, 255, 255);
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+    pointer-events: all;
+    visibility: visible;
+    touch-action: auto;
+    margin-bottom: 96px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: auto;
+    margin-right: 20px;
+}
+

@@ -1,0 +1,142 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.skil{
+    height: 100%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.skil p{
+    padding: 10px;
+    margin: 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.skil h2{
+    color: white;
+    padding-top: 10px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.skil .barra{
+    border: rgba(255, 255, 255, 0.600) solid 2px;
+    height: 10px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.600);
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+
+/* caricamento */
+.skil .barra .caricametoHTML{
+    border-radius: 10px;
+    background-color: white;
+    height: 10px;
+    width: 90%;
+}
+
+.skil .barra .caricametoCSS{
+    border-radius: 10px;
+    background-color: white;
+    height: 10px;
+    width: 80%;
+}
+
+.skil .barra .caricametoJS{
+    border-radius: 10px;
+    background-color: white;
+    height: 10px;
+    width: 65%;
+}
+
+.skil .barra .caricametoReact{
+    border-radius: 10px;
+    background-color: white;
+    height: 10px;
+    width: 35%;
+}
+
+.skil .barra .caricametoPhotoshop{
+    border-radius: 10px;
+    background-color: white;
+    height: 10px;
+    width: 80%;
+}
+
+.skil .barra .caricametoIllustrator{
+    border-radius: 10px;
+    background-color: white;
+    height: 10px;
+    width: 70%;
+}
+
+/* ABOUT */
+
+
+.titolo2 h1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.qualita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qualita .container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.qualita .container .linea{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.qualita .container .material-icons{
+    font-size: 70px;
+    color: tomato;
+
+}
+
+
+
+/* RESPONSIVE */
+
+
+@media only screen and (max-width: 650px) {
+    .qualita{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+

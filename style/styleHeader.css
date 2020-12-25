@@ -1,0 +1,47 @@
+
+.header h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.6);
+}
+.header h1 :hover{
+    color: tomato;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+    
+}
+.link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.link a{
+    padding-left: 50px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+    .header{
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .link a{
+        padding-left: 20px;
+        padding-right: 10px ;
+        font-size: small;
+    }
+
+
+}
